@@ -4,35 +4,42 @@ main {
     margin: 0 auto 3rem;
 }
 .site-header {
-
-}
-.site-title {
-    font-weight: 300;
-    > a {
-        color: $text-color;
-        text-decoration: none;
+    .site-title {
+        font-weight: 300;
+        > a {
+            color: $text-color;
+            text-decoration: none;
+        }
     }
-}
-.site-nav {
-    > a {
-        color: $text-color;
-        margin-right: 1rem;
-        &:hover {
-            text-decoration: underline;
+    .site-nav {
+        > a {
+            color: $text-color;
+            &:hover {
+                text-decoration: none;
+            }
+            &.active{
+                border-bottom:2px solid #666;
+            }
+            + a {
+                margin-left:1rem;
+            }
         }
     }
 }
 .posts {
     list-style: none;
     padding: 0;
-    span {
-        color: $meta-color;
-        margin-right: 1.5rem;
-        font-size: $small-font-size;
-    }
-    a {
-        color: $text-color;
-        text-decoration: none;
+    > li{
+        line-height: 1.75;
+        span {
+            color: $meta-color;
+            margin-right: 1.5rem;
+            font-size: $small-font-size;
+        }
+        a {
+            color: $text-color;
+            text-decoration: none;
+        }
     }
 }
 .post {

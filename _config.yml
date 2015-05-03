@@ -2,6 +2,9 @@ title: Vida
 
 date_format: "%Y-%m-%d"
 
+google_analytics:
+disqus_shortname: 
+
 # Build settings
 markdown:     redcarpet
 permalink:    pretty

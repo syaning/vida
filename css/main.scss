@@ -9,9 +9,10 @@ $base-font-size:   16px;
 $small-font-size:  0.875rem;
 $base-line-height: 1.5;
 
-$text-color: #333;
-$link-color: #0074d9;
-$meta-color: #a0a0a0;
+$text-color:   #333;
+$link-color:   #0074d9;
+$meta-color:   #a0a0a0;
+$border-color: #ddd;
 
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700);
 @import "color";

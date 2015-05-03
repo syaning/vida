@@ -10,11 +10,21 @@
         <header class="site-header">
             <h1 class="site-title"><a href="/">{{ site.title }}</a></h1>
             <nav class="site-nav">
-                <a href="/sample/">Sample</a>
-                <a href="/about/">About</a>
+                <a href="/sample/" class="{% if page.url == '/sample/' %}active{% endif %}">Sample</a>
+                <a href="/about/" class="{% if page.url == '/about/' %}active{% endif %}">About</a>
             </nav>
         </header>
         {{ content }}
     </main>
+    {% if site.google_analytics %}
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+    </script>
+    {% endif %}
 </body>
 </html>

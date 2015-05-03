@@ -27,7 +27,7 @@ h6 {
 blockquote {
     font-style: italic;
     padding-left: 1rem;
-    border-left: 3px solid #aaa;
+    border-left: 3px solid $border-color;
 }
 img {
     max-width: 100%;
@@ -46,15 +46,20 @@ td {
 th {
     text-align: left;
     vertical-align: bottom;
-    border-bottom: 2px solid #aaa;
+    border-bottom: 2px solid $border-color;
 }
 td {
     vertical-align: top;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid $border-color;
 }
 pre {
     padding: 1.25rem;
+    overflow-x:auto;
 }
 code {
     font-family: 'Courier New',Consolas,monopace;
+}
+hr {
+    border: none;
+    border-top: 2px solid $border-color;
 }

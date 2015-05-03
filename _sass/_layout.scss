@@ -2,6 +2,7 @@
 main {
     max-width: 48rem;
     margin: 0 auto 3rem;
+    padding: 0 2rem;
 }
 .site-header {
     .site-title {
@@ -17,11 +18,11 @@ main {
             &:hover {
                 text-decoration: none;
             }
-            &.active{
-                border-bottom:2px solid #666;
+            &.active {
+                border-bottom: 2px solid #666;
             }
             + a {
-                margin-left:1rem;
+                margin-left: 1rem;
             }
         }
     }
@@ -29,7 +30,7 @@ main {
 .posts {
     list-style: none;
     padding: 0;
-    > li{
+    > li {
         line-height: 1.75;
         span {
             color: $meta-color;
@@ -53,5 +54,13 @@ main {
         text-align: center;
         color: $meta-color;
         font-size: $small-font-size;
+    }
+}
+@media screen and (max-width: 48rem) {
+    .site-header {
+        .site-title,
+        .site-nav {
+            text-align: center;
+        }
     }
 }

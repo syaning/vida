@@ -1,6 +1,7 @@
 ---
-layout: page
-title:  About
+layout:    page
+title:     About
+permalink: /about/
 ---
 
 Vida is a minimalist jekyll theme.

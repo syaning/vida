@@ -1,0 +1,50 @@
+@charset "utf-8";
+main {
+    max-width: 48rem;
+    margin: 0 auto 3rem;
+}
+.site-header {
+
+}
+.site-title {
+    font-weight: 300;
+    > a {
+        color: $text-color;
+        text-decoration: none;
+    }
+}
+.site-nav {
+    > a {
+        color: $text-color;
+        margin-right: 1rem;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+.posts {
+    list-style: none;
+    padding: 0;
+    span {
+        color: $meta-color;
+        margin-right: 1.5rem;
+        font-size: $small-font-size;
+    }
+    a {
+        color: $text-color;
+        text-decoration: none;
+    }
+}
+.post {
+    position: relative;
+    .post-header {
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .post-meta {
+        margin: 0;
+        text-align: center;
+        color: $meta-color;
+        font-size: $small-font-size;
+    }
+}

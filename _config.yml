@@ -1,0 +1,7 @@
+title: Vida
+
+date_format: "%Y-%m-%d"
+
+# Build settings
+markdown:     redcarpet
+permalink:    pretty

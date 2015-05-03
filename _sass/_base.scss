@@ -1,0 +1,60 @@
+@charset "utf-8";
+body {
+    margin: 0;
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    color: $text-color;
+}
+p {
+    text-align: justify;
+}
+a {
+    color: $link-color;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+}
+blockquote {
+    font-style: italic;
+    padding-left: 1rem;
+    border-left: 3px solid #aaa;
+}
+img {
+    max-width: 100%;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    max-width: 100%;
+    width: 100%;
+}
+th,
+td {
+    padding: 0.5rem;
+    line-height: inherit;
+}
+th {
+    text-align: left;
+    vertical-align: bottom;
+    border-bottom: 2px solid #aaa;
+}
+td {
+    vertical-align: top;
+    border-bottom: 1px solid #ddd;
+}
+pre {
+    padding: 1.25rem;
+}
+code {
+    font-family: 'Courier New',Consolas,monopace;
+}

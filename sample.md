@@ -59,7 +59,7 @@ First of all, let's have a glance at the basic styles: [link](http://github.com/
 
 ### Image:
 
-![](/images/image.jpg)
+![](../images/image.jpg)
 
 ### Table:
 

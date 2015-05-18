@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
     <title>{{ site.title }}</title>
 </head>
 <body>
     <main>
         <header class="site-header">
-            <h1 class="site-title"><a href="/">{{ site.title }}</a></h1>
+            <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
             <nav class="site-nav">
-                <a href="/sample/" class="{% if page.url == '/sample/' %}active{% endif %}">Sample</a>
-                <a href="/about/" class="{% if page.url == '/about/' %}active{% endif %}">About</a>
+                <a href="{{ site.baseurl }}/sample/" class="{% if page.url == '/sample/' %}active{% endif %}">Sample</a>
+                <a href="{{ site.baseurl }}/about/" class="{% if page.url == '/about/' %}active{% endif %}">About</a>
             </nav>
         </header>
         {{ content }}

@@ -1,13 +1,15 @@
-title: Vida
+title: vida
 baseurl: "/vida"
 
 date_format: "%Y-%m-%d"
 
+# Build settings
+markdown: redcarpet
+redcarpet:
+  extensions: ["smart", "tables", "with_toc_data"]
+permalink: pretty
+
+# Third-party services
+# just leave someone empty to disable it
 google_analytics:
 disqus_shortname:
-
-# Build settings
-markdown:     redcarpet
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty

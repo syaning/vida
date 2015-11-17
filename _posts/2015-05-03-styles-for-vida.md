@@ -59,7 +59,7 @@ First of all, let's have a glance at the basic styles: [link](http://github.com/
 
 ### Image:
 
-![](/vida/images/image.jpg)
+![]({{site.baseurl}}/images/image.jpg)
 
 ### Table:
 
@@ -90,9 +90,7 @@ First of all, let's have a glance at the basic styles: [link](http://github.com/
     </tbody>
 </table>
 
-### Code
-
-Here are an ES6 code segment, in which `x => x * x` defines a function:
+### Code snippet
 
 ```javascript
 // index.js

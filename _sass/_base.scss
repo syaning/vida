@@ -8,6 +8,7 @@ body {
 }
 p {
     text-align: justify;
+    word-break: break-word;
 }
 a {
     color: $link-color;
@@ -23,6 +24,7 @@ h4,
 h5,
 h6 {
     font-weight: 300;
+    word-break: break-word;
 }
 blockquote {
     font-style: italic;

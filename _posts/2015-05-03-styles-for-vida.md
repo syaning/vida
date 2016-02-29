@@ -64,30 +64,30 @@ First of all, let's have a glance at the basic styles: [link](http://github.com/
 ### Table:
 
 <table>
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Fruit</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Alex</td>
-            <td>22</td>
-            <td>Apple</td>
-        </tr>
-        <tr>
-            <td>Bran</td>
-            <td>20</td>
-            <td>Orange</td>
-        </tr>
-        <tr>
-            <td>Mike</td>
-            <td>21</td>
-            <td>Waltermelon</td>
-        </tr>
-    </tbody>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Age</th>
+			<th>Fruit</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Alex</td>
+			<td>22</td>
+			<td>Apple</td>
+		</tr>
+		<tr>
+			<td>Bran</td>
+			<td>20</td>
+			<td>Orange</td>
+		</tr>
+		<tr>
+			<td>Mike</td>
+			<td>21</td>
+			<td>Waltermelon</td>
+		</tr>
+	</tbody>
 </table>
 
 ### Code snippet
@@ -97,4 +97,8 @@ First of all, let's have a glance at the basic styles: [link](http://github.com/
 var arr = [1, 2, 3, 4, 5];
 var b = arr.map(x => x * x);
 console.log(b);
+
+function foo(){
+	console.log('foo');
+}
 ```

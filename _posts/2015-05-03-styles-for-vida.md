@@ -13,10 +13,15 @@ First of all, let's have a glance at the basic styles: [link](http://github.com/
 ### Headers:
 
 # Header 1
+
 ## Header 2
+
 ### Header 3
+
 #### Header 4
+
 ##### Header 5
+
 ###### Header 6
 
 ### Lists:

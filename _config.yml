@@ -1,5 +1,5 @@
 title: João Thallis 
-baseurl: ""
+baseurl: "  "
 
 date_format: "%Y-%m-%d"
 
@@ -11,4 +11,4 @@ kramdown:
 # Third-party services
 # just leave someone empty to disable it
 google_analytics:
-disqus_shortname: http://disqus.com/by/joaodev  
+disqus_shortname: joaothallis-github-io

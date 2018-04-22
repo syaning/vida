@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  Welcome to Jekyll
 date:   2015-05-02 09:00:00
 ---

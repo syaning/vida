@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  Styles for vida
 date:   2015-05-03 10:30:00
 ---

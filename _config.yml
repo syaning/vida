@@ -1,14 +1,14 @@
-title: vida
-baseurl: "/vida"
+title: João Thallis 
+baseurl: ""
 
 date_format: "%Y-%m-%d"
 
 # Build settings
 kramdown:
   input: GFM
-permalink: pretty
+  permalink: pretty
 
 # Third-party services
 # just leave someone empty to disable it
 google_analytics:
-disqus_shortname:
+disqus_shortname: http://disqus.com/by/joaodev  

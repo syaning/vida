@@ -4,9 +4,11 @@ title:     About
 permalink: /about/
 ---
 
-My name is João Thallis, I'm a Software Developer. I live in Rio de Janeiro - Brazil and my favorite language is Elixir.
+My name is João Thallis, I'm a Software Developer. I live in Rio de Janeiro - Brazil and my favorite programming language is Elixir.
 
-I love open source, learning about productivity, business, entrepreneurship and I also really enjoy teaching what I'm learning (One of the reasons I create this blog).
+I believe that 2 wonderful ways to learn something is teaching (for this I created this blog to show) and creating (for this I keep some projects in my GitHub profile).
+
+I love open source, Linux, programming, productivity, business, finances and entrepreneurship.
 
 I am also a student of Computing at Fluminense Federal University.
 

@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Markdown with Visual Studio Code
-date: 2018-06-23 00:07:00
+date: 2018-06-29 01:00:00
 ---
 
 Some of the plugins I use to be more productive writing markdown files in Visual Studio Code

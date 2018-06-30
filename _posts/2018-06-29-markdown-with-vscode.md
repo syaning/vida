@@ -23,7 +23,7 @@ Use the following shortcut `Ctrl+Shift+V` or `Ctrl+K+V` to open preview to the s
 
 ## markdownlint
 
-markdownlint Check if you're writing the *right way*, making your text beautiful, easy to read and write XD.
+markdownlint check if you're writing the *right way*, making your text beautiful, easy to read and write XD.
 
 ### Installation
 

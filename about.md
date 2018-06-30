@@ -4,7 +4,7 @@ title:     About
 permalink: /about/
 ---
 
-Hello! My name is João Thallis, I'm a Software Developer. I live in [Rio de Janeiro](https://en.wikipedia.org/wiki/Rio_de_Janeiro_(state)) and my favorite programming language is Elixir.
+Hello! My name is João Thallis, I'm a Software Developer. I live in [Rio de Janeiro](https://en.wikipedia.org/wiki/Rio_de_Janeiro_(state)) and my favorite programming language is [Elixir](https://elixir-lang.org/).
 
 I believe that 2 wonderful ways to learn something is teaching (for this I created [this blog](https://joaothallis.github.io/) to show) and creating (for this I keep some projects in my [GitHub profile](https://github.com/joaothallis)).
 

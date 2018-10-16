@@ -5,7 +5,6 @@ layout: default
   <h2 class="post-header">{{ page.title }}</h2>
   <p class="post-meta">{{ page.date | date: site.date_format }}</p>
   {{ content }}
-  {% include advertising.html %}
   {% if site.disqus_shortname %}
   <div id="disqus_thread"></div>
   <script type="text/javascript">
